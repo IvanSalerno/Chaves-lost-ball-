@@ -9,9 +9,24 @@ body {
 }
 
 /* Cabeçalho */
-header {
+.header1 {
     background-color: #0000ff;
-    padding: 20px 0;
+    padding: 1px 0;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2 {
+    background-color: #00ff00;
+    padding: 1px 0;
 }
 
 header .logo {
@@ -33,7 +48,7 @@ header nav {
 }
 
 .menu li a {
-    color: #00ff00;
+    color: #0000ff;
     text-decoration: none;
     font-size: 18px;
 }
@@ -74,7 +89,7 @@ header nav {
 .footer {
     background-color: #0000ff;
     color: #00FF00;
-    padding: 5px 0;
+    padding: 1px 0;
     position: fixed;
     bottom: 0;
     width: 100%;

@@ -12,9 +12,34 @@ body {
     text-align: center;
 }
 
-.header {
+.header1 {
     background-color: #0000ff;
+    padding: 1px 0;
+}
+
+.chaves {
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2 {
+    background-color: #00ff00;
     padding: 10px 0;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header .logo {
@@ -25,6 +50,20 @@ body {
     color: #00FF00;
     font-size: 20px;
     text-decoration: none;
+}
+
+.pop {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.pop li a {
+    color: #0000ff;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .content {
